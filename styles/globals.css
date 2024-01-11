@@ -23,6 +23,9 @@ p:last-child{margin-bottom:0}
 .absolute{position: absolute;}
 .relative{position: relative;}
 .sticky{position: sticky;}
+.react-parallax{ min-height:450px;}
+.card-lift {transition: box-shadow .5s ease-in-out;}
+.card-lift:hover {box-shadow: 0 1rem 3rem rgba(38,31,68,.175);}
 .right-4{right: 1rem;}
 .mb-lg-6{margin-bottom:4rem!important}
 .text-primary{color:#54768e!important;}

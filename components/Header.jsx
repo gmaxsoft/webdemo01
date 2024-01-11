@@ -9,7 +9,7 @@ const header = () => {
                 <div class="row d-flex align-items-center ">
                     <div class="col-lg-5 col-md-4 col-12">
                         <div class="text-center text-md-start">
-                            <a href="index.html" className='logo'>
+                            <a href="/" className='logo'>
                             <Image
                                     className=""
                                     src="/assets/images/logo/logo.webp"

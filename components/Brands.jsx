@@ -18,7 +18,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-1.png"
                                         alt="Serwis Agd Logo"
                                         width={284}
@@ -34,7 +34,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-2.png"
                                         alt="Serwis Agd Logo"
                                         width={284}
@@ -50,7 +50,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-3.png"
                                         alt="Serwis Agd Logo"
                                         width={284}
@@ -66,7 +66,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-4.png"
                                         alt="Serwis Agd Logo"
                                         width={284}
@@ -82,7 +82,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-5.png"
                                         alt="Serwis Agd Logo"
                                         width={284}
@@ -98,7 +98,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-6.png"
                                         alt="Serwis Agd Logo"
                                         width={284}
@@ -114,7 +114,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-7.png"
                                         alt="Serwis Agd Logo"
                                         width={284}
@@ -130,7 +130,7 @@ const Brands = () => {
                             <div className="card-body">
                                 <a href="#">
                                     <Image
-                                        classNameName="img-fluid"
+                                        className="img-fluid"
                                         src="/assets/images/png/brand-logo-8.png"
                                         alt="Serwis Agd Logo"
                                         width={284}

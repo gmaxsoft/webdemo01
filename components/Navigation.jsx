@@ -31,9 +31,9 @@ const Navigation = () => {
           <div className="col-md-12">
             <div id="navigation">
               <ul>
-                <li className="active"><a href="index.html" className="animsition-link">Start</a></li>
-                <li><a href="oferta.html" title="service">Oferta</a></li>
-                <li><a href="kontakt.html" title="Contact Us" className="animsition-link">Kontakt</a></li>
+                <li className="active"><a href="/" className="animsition-link">Start</a></li>
+                <li><a href="/oferta" title="Oferta">Oferta</a></li>
+                <li><a href="/kontakt" title="Kontakt" className="animsition-link">Kontakt</a></li>
               </ul>
             </div>
           </div>

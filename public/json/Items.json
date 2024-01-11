@@ -3,24 +3,24 @@
       "bootstrap": [
         {
           "id": 1,
-          "title": "Photography",
+          "title": "Pralki i suszarki",
           "body": "Bootstrap Carousel Example",
-          "imageUrl": "/assets/images/slide/slider-1.jpg",
-          "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+          "imageUrl": "/assets/images/slide/slider-1.webp",
+          "docs": ""
         },
         {
           "id": 2,
-          "title": "City Views",
+          "title": "Zmywarki",
           "body": "Bootstrap Carousel Example",
-          "imageUrl": "/assets/images/slide/slider-2.jpg",
-          "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+          "imageUrl": "/assets/images/slide/slider-2.webp",
+          "docs": ""
         },
         {
           "id": 3,
-          "title": "Wild Life",
+          "title": "Ekspresy do kawy",
           "body": "Bootstrap Carousel Example",
-          "imageUrl": "/assets/images/slide/slider-3.jpg",
-          "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+          "imageUrl": "/assets/images/slide/slider-3.webp",
+          "docs": ""
         }
       ]
     }
