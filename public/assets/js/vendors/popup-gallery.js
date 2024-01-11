@@ -1,1 +1,0 @@
-$(".image-link").magnificPopup({type:"image",mainClass:"mfp-with-zoom",zoom:{enabled:!0,duration:300,easing:"ease-in-out",opener:function(i){return i.is("img")?i:i.find("img")}},image:{titleSrc:"title"},gallery:{enabled:!0}});
