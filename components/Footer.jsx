@@ -3,38 +3,30 @@ import Image from 'next/image'
 
 const footer = () => {
     return (
+        <>
         <div className="footer-components">
             <div className="footer section-space80">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4 col-sm-6">
                             <div className="footer-widget mb20">
-                                <h3 className="footer-title mb30">About Fixit Repairs</h3>
-                                <p>We are the appliance repair experts and our engineers have already successfully repaired kitchen appliances for more than 1 million households nationwide.</p>
-                                <ul className="listnone">
-                                    <li>
-                                        <address>
-                                            2255 Hummingbird Way,<br />
-                                                Salina, KS 67401
-                                        </address>
-                                    </li>
-                                    <li className="mb10">+ 91  123 467 8912</li>
-                                    <li className="mb10">info@fixitrepair.com</li>
-                                </ul>
-                                <div className="footer-social"> <a href="#"></a></div>
+                                <h3 className="footer-title mb30">Serwis AGD Chodkiewicz</h3>
+                                <p className="text-justify">Zajmujemy się naprawą pralek, zmywarek, szuszarek i ekspresów do kawy w Świebodzinie, Sulechowie, Międzyrzeczu, Torzymiu, Trzcielu, Łagowie Lubuskim i innych okolicach gminy Świebodzin - wolnostojące i w zabudowie (zmywarki, pralki itp.). Przywozimy także używany sprzęt AGD z Niemiec.</p>
                             </div>
-
                         </div>
                         <div className="col-md-4 col-sm-3">
                             <div className="footer-widget mb20">
-                                <h3 className="footer-title mb30">Services</h3>
-                                <ul className="listnone bullet bullet-arrow-right">
-                                    <li><a href="#">Washing Machine</a></li>
-                                    <li><a href="#">Tumble Dryer</a></li>
-                                    <li><a href="#">Oven Repair</a></li>
-                                    <li><a href="#">Fridge</a></li>
-                                    <li><a href="#">Dishwasher</a></li>
-                                    <li><a href="#">Extractor</a></li>
+                                <h3 className="footer-title mb30">Dane kontaktowe</h3>
+                                <ul className="listnone">
+                                    <li>
+                                        <address>
+                                            Naprawa pralek i zmywarek - Chodkiewicz<br />
+                                            66-200 Świebodzin, Wałowa 56
+                                        </address>
+                                    </li>
+                                    <li className="mb10">Pn-Pt: 09:00 do 17:00</li>
+                                    <li className="mb10">Sb: 09:00-13:00</li>
+                                    <li className="mb10">Tel: <a href="tel:+48600641862">(+48) 600 641 862</a></li>
                                 </ul>
                             </div>
 
@@ -42,21 +34,11 @@ const footer = () => {
                         <div className="col-md-4 col-sm-12">
                             <div className="footer-widget mb20">
                                 <div className="newsletter-widget">
-                                    <h3 className="footer-title mb30">Subscribe our newsletter</h3>
-                                    <p>Keep up with the latest news, special offers and other discount information.</p>
-                                    <div className="newsletter-form">
-                                        <form className="row" method="post" action="newsletter.php">
-                                            <div className="col-md-12">
+                                    <h3 className="footer-title mb30">Tagi</h3>
+                                    <p className="text-justify">Naprawa pralek, Świebodzin, Naprawa zmywarek, Sulechów, Naprawa ekspresów do kawy, Międzyrzecz, Naprawa suszarek, Lubrza, Części do pralek, Trzciel, Chodkiewicz, Torzym, AGD, Jordanowo, Serwis, Łagów Lubuski, Sulęcin, Zielona Góra, Krosno Odrzańskie</p>
                                     
-                                            </div>
-                                            <div className="col-md-12">
-                                                <button type="submit" className="btn btn-primary">Subscribe now</button>
-                                            </div>
-                                        </form>
-                                    </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -71,6 +53,7 @@ const footer = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

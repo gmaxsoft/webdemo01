@@ -1,6 +1,9 @@
-import Image from 'next/image'
+"use client"
 
-const GooglerMap = () => {
+import Image from 'next/image'
+import GoogleMapTag from './GoogleMapTag'
+
+const GooglerMapTxt = () => {
     return (
         <section className="py-lg-7 py-5 bg-white">
             <div className="container">
@@ -8,13 +11,13 @@ const GooglerMap = () => {
                     <div className="col-lg-12 col-md-12 col-12">
                         <div className="text-center mb-lg-6 mb-5">
                             <h2 className="mb-4 ">Znajdź nasz punkt na mapie</h2>
-                            <p className="mb-0">Are you looking for appliance technician in your area find the below our repair locations</p>
+                            <p className="mb-0">Uwaga! Wizyta w punkcie tylko po uprzednim potwierdzeniu telefoniczym</p>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-xl-12 col-lg-12 col-md-12 col-12">
-
+                    <GoogleMapTag />
                     </div>
                 </div>
             </div>
@@ -22,4 +25,4 @@ const GooglerMap = () => {
     )
 }
 
-export default GooglerMap
+export default GooglerMapTxt

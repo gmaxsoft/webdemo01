@@ -16,30 +16,34 @@ const Navigation = () => {
   }
 
   useEffect(() => {
-    window.addEventListener('scroll',handleScroll)
+    window.addEventListener('scroll', handleScroll)
   })
 
-  let navbarClasses=['navigation'];
-  if(scrolled){
+  let navbarClasses = ['navbar navbar-expand-lg navbar-dark navbar-default'];
+  if (scrolled) {
     navbarClasses.push('scrolled');
   }
 
   return (
-    <div className={navbarClasses.join(" ")}>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div id="navigation">
-              <ul>
-                <li className="active"><a href="/" className="animsition-link">Start</a></li>
-                <li><a href="/oferta" title="Oferta">Oferta</a></li>
-                <li><a href="/kontakt" title="Kontakt" className="animsition-link">Kontakt</a></li>
-              </ul>
-            </div>
-          </div>
+    <>
+      <nav className={navbarClasses.join(" ")}>
+      <div className="container px-md-0">
+ 
+        <span class="text-white fw-semibold d-block d-lg-none">Menu</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li className="nav-item"><a href="/" title="Start" className="nav-link">Start</a></li>
+            <li className="nav-item"><a href="/oferta" title="Oferta" className="nav-link">Oferta</a></li>
+            <li className="nav-item"><a href="/kontakt" title="Kontakt" className="nav-link">Kontakt</a></li>
+          </ul>
         </div>
       </div>
-    </div>
+      </nav>
+    </>
   )
 }
 

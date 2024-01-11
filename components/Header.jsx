@@ -10,7 +10,7 @@ const header = () => {
                     <div class="col-lg-5 col-md-4 col-12">
                         <div class="text-center text-md-start">
                             <a href="/" className='logo'>
-                            <Image
+                                <Image
                                     className=""
                                     src="/assets/images/logo/logo.webp"
                                     alt="Serwis Agd Logo"
@@ -38,8 +38,21 @@ const header = () => {
                                         </svg>
                                     </div>
                                     <div class="ms-3">
-                                        <h6 class="mb-1 text-body text-opacity-50">Opening Hours</h6>
-                                        <span class="fw-semibold">8:00AM to 7:00PM</span>
+                                        <h6 class="mb-1 text-body">Godziny otwarcia</h6>
+                                        <span class="fw-semibold">pn-pt: 09:00 do 17:00<br />
+                                        sb: 09:00 do 13:00
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-clock text-primary" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137" /><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h6 class="mb-1 text-body">Adres</h6>
+                                        <span class="fw-semibold">66-200 Świebodzin, Wałowa 56</span>
                                     </div>
                                 </div>
                             </div>
@@ -51,21 +64,9 @@ const header = () => {
                                         </svg>
                                     </div>
                                     <div class="ms-3">
-                                        <h6 class="mb-1 text-body text-opacity-50">Call now</h6>
-                                        <span class="fw-semibold">+ 91 123 467 8912</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope-paper text-primary" viewbox="0 0 16 16">
-                                            <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h6 class="mb-1 text-body text-opacity-50">Email id</h6>
-                                        <span class="fw-semibold">info@fixit.com</span>
+                                        <h6 class="mb-1 text-body">Telefon</h6>
+                                        <span class="fw-semibold"><a href="tel:+48600641862">(+48) 600 641 862</a><br />
+                                        &nbsp;</span>
                                     </div>
                                 </div>
                             </div>

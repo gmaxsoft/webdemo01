@@ -8,7 +8,7 @@ const Brands = ({ className }) => {
                     <div className="col-lg-6 offset-lg-3 col-md-12 col-12">
                         <div className="text-center mb-lg-6 mb-5 mt-5">
                             <h2 className="mb-3">Marki które obsługujemy</h2>
-                            <p>We service all makes and models, and all brands. Below you will see just a <strong className="text-dark fw-bold">fwe of the brands</strong> we have serviced recently.</p>
+                            <p>Obsługujemy wszystkie marki i ich modele. Poniżej znajdziesz tylko kilka marek, które ostatnio obsługiwaliśmy.</p>
                         </div>
                     </div>
                 </div>
@@ -16,11 +16,11 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/amica" title="Amica">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-1.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="Amica"
                                         width={284}
                                         height={180}
                                         priority
@@ -32,11 +32,11 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/aeg" title="AEG">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-2.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="AEG"
                                         width={284}
                                         height={180}
                                         priority
@@ -48,11 +48,11 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/bosch" title="BOSCH">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-3.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="BOSCH"
                                         width={284}
                                         height={180}
                                         priority
@@ -64,11 +64,11 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/electrolux" title="ELECTROLUX">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-4.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="ELECTROLUX"
                                         width={284}
                                         height={180}
                                         priority
@@ -80,11 +80,11 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/miele" title="MIELE">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-5.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="MIELE"
                                         width={284}
                                         height={180}
                                         priority
@@ -96,11 +96,11 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/samsung" title="SAMSUNG">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-6.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="SAMSUNG"
                                         width={284}
                                         height={180}
                                         priority
@@ -112,11 +112,11 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/siemens" title="SIEMENS">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-7.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="SIEMENS"
                                         width={284}
                                         height={180}
                                         priority
@@ -128,11 +128,76 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="#">
+                                <a href="/whirlpool" title="Whirlpool">
                                     <Image
                                         className="img-fluid"
                                         src="/assets/images/png/brand-logo-8.png"
-                                        alt="Serwis Agd Logo"
+                                        alt="Whirlpool"
+                                        width={284}
+                                        height={180}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-12">
+                        <div className="card text-center rounded-0 card-lift">
+                            <div className="card-body">
+                                <a href="/indesit" title="INDESIT">
+                                    <Image
+                                        className="img-fluid"
+                                        src="/assets/images/png/brand-logo-9.png"
+                                        alt="INDESIT"
+                                        width={284}
+                                        height={180}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-3 col-12">
+                        <div className="card text-center rounded-0 card-lift">
+                            <div className="card-body">
+                                <a href="/ariston" title="Ariston">
+                                    <Image
+                                        className="img-fluid"
+                                        src="/assets/images/png/brand-logo-10.png"
+                                        alt="Ariston"
+                                        width={284}
+                                        height={180}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-3 col-12">
+                        <div className="card text-center rounded-0 card-lift">
+                            <div className="card-body">
+                                <a href="/beko" title="BEKO">
+                                    <Image
+                                        className="img-fluid"
+                                        src="/assets/images/png/brand-logo-11.png"
+                                        alt="BEKO"
+                                        width={284}
+                                        height={180}
+                                        priority
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-3 col-12">
+                        <div className="card text-center rounded-0 card-lift">
+                            <div className="card-body">
+                                <a href="/candy" title="CANDY">
+                                    <Image
+                                        className="img-fluid"
+                                        src="/assets/images/png/brand-logo-12.png"
+                                        alt="CANDY"
                                         width={284}
                                         height={180}
                                         priority

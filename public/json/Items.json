@@ -3,22 +3,22 @@
       "bootstrap": [
         {
           "id": 1,
-          "title": "Pralki i suszarki",
-          "body": "Bootstrap Carousel Example",
+          "title": "",
+          "body": "Kompleksowa naprawa i serwis urządeń AGD.",
           "imageUrl": "/assets/images/slide/slider-1.webp",
           "docs": ""
         },
         {
           "id": 2,
-          "title": "Zmywarki",
-          "body": "Bootstrap Carousel Example",
+          "title": "",
+          "body": "Kompleksowa naprawa i serwis urządeń AGD.",
           "imageUrl": "/assets/images/slide/slider-2.webp",
           "docs": ""
         },
         {
           "id": 3,
-          "title": "Ekspresy do kawy",
-          "body": "Bootstrap Carousel Example",
+          "title": "",
+          "body": "Kompleksowa naprawa i serwis urządeń AGD.",
           "imageUrl": "/assets/images/slide/slider-3.webp",
           "docs": ""
         }
