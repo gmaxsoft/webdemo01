@@ -13,6 +13,7 @@ a:focus,a:hover{text-decoration:none;color:#54768e}
 strong{font-weight:600;color:#353938}
 .highlight{font-weight:700}
 .italic{font-style:italic}
+.py-5 {padding-top: 3rem !important;padding-bottom: 6rem !important;}
 .small-text{font-size:14px;text-transform:uppercase}
 blockquote{padding:10px 20px;margin:0 0 20px;font-size:24px;border-left:transparent;color:#54768e;font-style:italic;line-height:42px}
 blockquote.alignright{max-width:50%}

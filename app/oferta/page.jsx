@@ -6,7 +6,7 @@ export default function Oferta() {
   return (
       <>
       <Services />
-      <Brands />
+      <Brands className="bg-white" />
       </>
   )
 }

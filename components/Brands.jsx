@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-const Brands = () => {
+const Brands = ({ className }) => {
     return (
-        <section className=" py-5">
+        <section className={`py-5 ${className}`}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 offset-lg-3 col-md-12 col-12">

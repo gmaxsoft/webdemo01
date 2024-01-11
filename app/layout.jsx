@@ -22,17 +22,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pl">
-      <body>
-        <main>
-          <Header />
-          <Navigation />
-          {children}
-        </main>
-        <Footer />
-        <ScrollToTopButton />
-        <BootstrapClient />
-      </body>
-    </html>
+    <>
+      <html lang="pl">
+        <body>
+          <main>
+            <Header />
+            <Navigation />
+            {children}
+          </main>
+          <Footer />
+          <ScrollToTopButton />
+          <BootstrapClient />
+        </body>
+      </html>
+    </>
   )
 }
