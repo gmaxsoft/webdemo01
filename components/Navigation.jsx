@@ -29,9 +29,9 @@ const Navigation = () => {
       <nav className={navbarClasses.join(" ")}>
       <div className="container px-md-0">
  
-        <span class="text-white fw-semibold d-block d-lg-none">Menu</span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span className="text-white fw-semibold d-block d-lg-none">Menu</span>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">

@@ -1,9 +1,9 @@
 "use client"
 
 import Image from 'next/image'
-import GoogleMapTag from './GoogleMapTag'
+import GoogleMapTag from '@/components/GoogleMapTag'
 
-const GooglerMapTxt = () => {
+const GoogleMapTxt = () => {
     return (
         <section className="py-lg-7 py-5 bg-white">
             <div className="container">
@@ -25,4 +25,4 @@ const GooglerMapTxt = () => {
     )
 }
 
-export default GooglerMapTxt
+export default GoogleMapTxt

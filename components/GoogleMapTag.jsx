@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
-import Marker from './Marker';
+import Marker from '@/components/Marker';
 
 const containerStyle = {
   width: '1296px',
@@ -17,7 +17,7 @@ const center = {
 function GoogleMapTag() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: ""
+    googleMapsApiKey: "AIzaSyBQSEaJpTUx3J-lH-s9LJU3AgxAFTKuq5s"
   })
 
   const [map, setMap] = React.useState(null)

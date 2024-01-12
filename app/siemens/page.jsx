@@ -1,7 +1,6 @@
-import GooglerMapTxt from '@/components/GooglerMapTxt'
-import KontaktPage from '@/components/KontaktPage'
 
-export default function Kontakt() {
+
+export default function Marka() {
   return (
     <>
       <section className="py-lg-7 py-5 bg-light">

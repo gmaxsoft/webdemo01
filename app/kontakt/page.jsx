@@ -1,11 +1,11 @@
-import GooglerMapTxt from '@/components/GooglerMapTxt'
+import GoogleMapTxt from '@/components/GoogleMapTxt'
 import KontaktPage from '@/components/KontaktPage'
 
 export default function Kontakt() {
   return (
     <>
     <KontaktPage />
-    <GooglerMapTxt />
+    <GoogleMapTxt />
     </>
   )
 }
