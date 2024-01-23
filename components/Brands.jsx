@@ -1,7 +1,9 @@
+import Link from "next/link";
 import Image from 'next/image'
 
 const Brands = ({ className }) => {
     return (
+        <>
         <section className={`py-5 ${className}`}>
             <div className="container">
                 <div className="row">
@@ -16,128 +18,128 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/amica" title="Amica">
+                                <Link href="/amica/" title="Amica">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-1.png"
+                                        src="/assets/images/png/brand-logo-1.webp"
                                         alt="Amica"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/aeg" title="AEG">
+                                <Link href="/aeg/" title="AEG">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-2.png"
+                                        src="/assets/images/png/brand-logo-2.webp"
                                         alt="AEG"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/bosch" title="BOSCH">
+                                <Link href="/bosch/" title="BOSCH">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-3.png"
+                                        src="/assets/images/png/brand-logo-3.webp"
                                         alt="BOSCH"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/electrolux" title="ELECTROLUX">
+                                <Link href="/electrolux/" title="ELECTROLUX">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-4.png"
+                                        src="/assets/images/png/brand-logo-4.webp"
                                         alt="ELECTROLUX"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/miele" title="MIELE">
+                                <Link href="/miele/" title="MIELE">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-5.png"
+                                        src="/assets/images/png/brand-logo-5.webp"
                                         alt="MIELE"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/samsung" title="SAMSUNG">
+                                <Link href="/samsung/" title="SAMSUNG">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-6.png"
+                                        src="/assets/images/png/brand-logo-6.webp"
                                         alt="SAMSUNG"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/siemens" title="SIEMENS">
+                                <Link href="/siemens/" title="SIEMENS">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-7.png"
+                                        src="/assets/images/png/brand-logo-7.webp"
                                         alt="SIEMENS"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/whirlpool" title="Whirlpool">
+                                <Link href="/whirlpool/" title="Whirlpool">
                                     <Image
                                         className="img-fluid"
-                                        src="/assets/images/png/brand-logo-8.png"
+                                        src="/assets/images/png/brand-logo-8.webp"
                                         alt="Whirlpool"
                                         width={284}
                                         height={180}
                                         priority
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -145,70 +147,71 @@ const Brands = ({ className }) => {
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="card text-center rounded-0 card-lift">
                             <div className="card-body">
-                                <a href="/indesit" title="INDESIT">
-                                    <Image
-                                        className="img-fluid"
-                                        src="/assets/images/png/brand-logo-9.png"
-                                        alt="INDESIT"
-                                        width={284}
-                                        height={180}
-                                        priority
-                                    />
-                                </a>
-                            </div>
+                                <Link href="/indesit/" title="INDESIT">
+                                <Image
+                                    className="img-fluid"
+                                    src="/assets/images/png/brand-logo-9.webp"
+                                    alt="INDESIT"
+                                    width={284}
+                                    height={180}
+                                    priority
+                                />
+                            </Link>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-12">
-                        <div className="card text-center rounded-0 card-lift">
-                            <div className="card-body">
-                                <a href="/ariston" title="Ariston">
-                                    <Image
-                                        className="img-fluid"
-                                        src="/assets/images/png/brand-logo-10.png"
-                                        alt="Ariston"
-                                        width={284}
-                                        height={180}
-                                        priority
-                                    />
-                                </a>
-                            </div>
+                </div>
+                <div className="col-lg-3 col-md-3 col-12">
+                    <div className="card text-center rounded-0 card-lift">
+                        <div className="card-body">
+                            <Link href="/ariston/" title="Ariston">
+                                <Image
+                                    className="img-fluid"
+                                    src="/assets/images/png/brand-logo-10.webp"
+                                    alt="Ariston"
+                                    width={284}
+                                    height={180}
+                                    priority
+                                />
+                            </Link>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-12">
-                        <div className="card text-center rounded-0 card-lift">
-                            <div className="card-body">
-                                <a href="/beko" title="BEKO">
-                                    <Image
-                                        className="img-fluid"
-                                        src="/assets/images/png/brand-logo-11.png"
-                                        alt="BEKO"
-                                        width={284}
-                                        height={180}
-                                        priority
-                                    />
-                                </a>
-                            </div>
+                </div>
+                <div className="col-lg-3 col-md-3 col-12">
+                    <div className="card text-center rounded-0 card-lift">
+                        <div className="card-body">
+                            <Link href="/beko/" title="BEKO">
+                                <Image
+                                    className="img-fluid"
+                                    src="/assets/images/png/brand-logo-11.webp"
+                                    alt="BEKO"
+                                    width={284}
+                                    height={180}
+                                    priority
+                                />
+                            </Link>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-12">
-                        <div className="card text-center rounded-0 card-lift">
-                            <div className="card-body">
-                                <a href="/candy" title="CANDY">
-                                    <Image
-                                        className="img-fluid"
-                                        src="/assets/images/png/brand-logo-12.png"
-                                        alt="CANDY"
-                                        width={284}
-                                        height={180}
-                                        priority
-                                    />
-                                </a>
-                            </div>
+                </div>
+                <div className="col-lg-3 col-md-3 col-12">
+                    <div className="card text-center rounded-0 card-lift">
+                        <div className="card-body">
+                            <Link href="/candy/" title="CANDY">
+                                <Image
+                                    className="img-fluid"
+                                    src="/assets/images/png/brand-logo-12.webp"
+                                    alt="CANDY"
+                                    width={284}
+                                    height={180}
+                                    priority
+                                />
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        </section >
+        </>
     )
 }
 

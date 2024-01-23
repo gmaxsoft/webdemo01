@@ -7,9 +7,11 @@ import { Carousel } from "react-bootstrap";
 export default function BootstrapCarousel() {
   const { bootstrap } = items;
   const [index, setIndex] = useState(0);
+
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+  
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} className="slider">
       {bootstrap.map((item) => (
@@ -17,7 +19,7 @@ export default function BootstrapCarousel() {
           <img src={item.imageUrl} alt="slides" />
           <Carousel.Caption className="caption">
             <h3>{item.body}</h3>
-            <a href="/oferta" className="btn btn-danger">Zobacz ofertę</a>
+            <a href="/oferta" className="btn btn-danger" title="Oferta">Zobacz ofertę</a>
           </Carousel.Caption>
         </Carousel.Item>
       ))}

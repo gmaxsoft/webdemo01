@@ -13,7 +13,7 @@ const KontaktPage = () => {
                         <div className="col-xl-12 col-lg-12 col-12">
                             <div className="pageContentTxt">
                                 <p><strong>Sprzedaż części i naprawa pralek automatycznych - Chodkiewicz</strong></p>
-                                <p>Adres: 66-200 Świebodzin, Wałowa 56<br />Dni otwarcia: pn-pt: 09:00 do 17:00, sb 09:00-13:00<br />Tel: <strong><a href="tel:+48600641862">600 641 862</a></strong></p>
+                                <p>Adres: 66-200 Świebodzin, Wałowa 56<br />Dni otwarcia: pn-pt: 09:00 do 17:00<br />Tel: <strong><a href="tel:+48600641862">+48 600 641 862</a></strong></p>
                                 <p><strong>Telefon komórkowy pn-sb od godz: 09:00</strong></p>
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 "use client"
-
+import Link from "next/link";
 import { useEffect, useState } from "react"
 
 const Navigation = () => {
@@ -30,15 +30,15 @@ const Navigation = () => {
       <div className="container px-md-0">
  
         <span className="text-white fw-semibold d-block d-lg-none">Menu</span>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Włącz menu">
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li className="nav-item"><a href="/" title="Start" className="nav-link">Start</a></li>
-            <li className="nav-item"><a href="/oferta" title="Oferta" className="nav-link">Oferta</a></li>
-            <li className="nav-item"><a href="/kontakt" title="Kontakt" className="nav-link">Kontakt</a></li>
+        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav">
+            <li className="nav-item"><Link href="/" title="Start" className="nav-link">Start</Link></li>
+            <li className="nav-item"><Link href="/oferta/" title="Oferta" className="nav-link">Oferta</Link></li>
+            <li className="nav-item"><Link href="/kontakt/" title="Kontakt" className="nav-link">Kontakt</Link></li>
           </ul>
         </div>
       </div>

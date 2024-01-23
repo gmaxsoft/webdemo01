@@ -23,7 +23,7 @@ const Services = () => {
                   <a href="#">
                     <Image
                       className="img-fluid w-100 rounded-top"
-                      src="/assets/images/service/service-1.jpg"
+                      src="/assets/images/service/service-1.webp"
                       alt="Serwis Agd Logo"
                       width={358}
                       height={210}
@@ -45,7 +45,7 @@ const Services = () => {
                   <a href="#">
                     <Image
                       className="img-fluid w-100 rounded-top"
-                      src="/assets/images/service/service-2.jpg"
+                      src="/assets/images/service/service-2.webp"
                       alt="Serwis Agd Logo"
                       width={358}
                       height={210}
@@ -67,7 +67,7 @@ const Services = () => {
                   <a href="#">
                     <Image
                       className="img-fluid w-100 rounded-top"
-                      src="/assets/images/service/service-3.jpg"
+                      src="/assets/images/service/service-3.webp"
                       alt="Serwis Agd Logo"
                       width={358}
                       height={210}
@@ -89,7 +89,7 @@ const Services = () => {
                   <a href="#">
                     <Image
                       className="img-fluid w-100 rounded-top"
-                      src="/assets/images/service/service-4.jpg"
+                      src="/assets/images/service/service-4.webp"
                       alt="Serwis Agd Logo"
                       width={358}
                       height={210}
@@ -111,7 +111,7 @@ const Services = () => {
                   <a href="#">
                     <Image
                       className="img-fluid w-100 rounded-top"
-                      src="/assets/images/service/service-5.jpg"
+                      src="/assets/images/service/service-5.webp"
                       alt="Serwis Agd Logo"
                       width={358}
                       height={210}
@@ -133,7 +133,7 @@ const Services = () => {
                   <a href="#">
                     <Image
                       className="img-fluid w-100 rounded-top"
-                      src="/assets/images/service/service-6.jpg"
+                      src="/assets/images/service/service-6.webp"
                       alt="Serwis Agd Logo"
                       width={358}
                       height={210}

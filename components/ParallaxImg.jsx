@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const ParallaxImg = () => {
   return (
-    <section className="py-lg-7 py-5">
+    <section className="py-lg-7 py-5 d-none d-md-block">
       <Parallax blur={0} bgImage="/assets/images/parallax/bg2.webp" bgImageAlt="Tło AGD" strength={200}>
         <div className="container">
           <div className="row">

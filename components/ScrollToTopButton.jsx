@@ -29,7 +29,7 @@ const ScrollToTopButton = () => {
   }
 
   return (
-    <button
+    <button aria-label="Do góry" id="toTop"
       className={`fixed btn-bg bottom-4 right-4 rounded-full p-2 outline-none transition-opacity duration-200 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}

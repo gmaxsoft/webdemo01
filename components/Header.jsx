@@ -9,7 +9,7 @@ const header = () => {
                 <div className="row d-flex align-items-center ">
                     <div className="col-lg-5 col-md-4 col-12">
                         <div className="text-center text-md-start">
-                            <a href="/" className='logo'>
+                            <a href="/" className='logo' title='Serwis Agd logo'>
                                 <Image
                                     className=""
                                     src="/assets/images/logo/logo.webp"
@@ -40,8 +40,7 @@ const header = () => {
                                     <div className="ms-3">
                                         <h6 className="mb-1 text-body">Godziny otwarcia</h6>
                                         <span className="fw-semibold">pn-pt: 09:00 do 17:00<br />
-                                        sb: 09:00 do 13:00
-                                        </span>
+                                        &nbsp;</span>
                                     </div>
                                 </div>
                             </div>
