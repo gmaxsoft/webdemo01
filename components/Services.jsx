@@ -20,11 +20,11 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-12 mb-4">
               <div className="card h-100 border-0 card-lift shadow-sms">
                 <div>
-                  <a href="#">
+                  <a href="#" title='Naprawa pralek Świebodzin'>
                     <Image
                       className="img-fluid w-100 rounded-top"
                       src="/assets/images/service/service-1.webp"
-                      alt="Serwis Agd Logo"
+                      alt="Serwis Agd Świebodzin"
                       width={358}
                       height={210}
                       priority
@@ -33,7 +33,7 @@ const Services = () => {
                 </div>
                 <div className="card-body">
                   <h3 className="mb-3">
-                    <a href="#" className="text-reset">Naprawa pralek</a>
+                    <a href="#" className="text-reset" title='Naprawa pralek Świebodzin'>Naprawa pralek</a>
                   </h3>
                   <p className="">Naprawa pralek różnych producentów między innymi: Beko, Bosch, Candy, Whirlpool, Ariston, Indesit oraz wielu innych.</p>
                 </div>
@@ -42,11 +42,11 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-12 mb-4">
               <div className="card border-0 h-100 card-lift shadow-sms">
                 <div>
-                  <a href="#">
+                  <a href="#" title='Naprawa zmywarek Świebodzin'>
                     <Image
                       className="img-fluid w-100 rounded-top"
                       src="/assets/images/service/service-2.webp"
-                      alt="Serwis Agd Logo"
+                      alt="Serwis Agd Świebodzin"
                       width={358}
                       height={210}
                       priority
@@ -55,7 +55,7 @@ const Services = () => {
                 </div>
                 <div className="card-body">
                   <h3 className="mb-3">
-                    <a href="#" className="text-reset">Naprawa zmywarek</a>
+                    <a href="#" className="text-reset" title='Naprawa zmywarek Świebodzin'>Naprawa zmywarek</a>
                   </h3>
                   <p>Naprawa zmywarek - diagnozujemy i naprawiamy zmywarki niezależnie od producenta i rodzaju usterki na miejscu u klienta.</p>
                 </div>
@@ -64,11 +64,11 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-12 mb-4">
               <div className="card border-0 h-100 card-lift shadow-sms">
                 <div>
-                  <a href="#">
+                  <a href="#" title='Naprawa suszarek do prania Świebodzin'>
                     <Image
                       className="img-fluid w-100 rounded-top"
                       src="/assets/images/service/service-3.webp"
-                      alt="Serwis Agd Logo"
+                      alt="Serwis Agd Świebodzin"
                       width={358}
                       height={210}
                       priority
@@ -77,20 +77,20 @@ const Services = () => {
                 </div>
                 <div className="card-body">
                   <h3 className="mb-3">
-                    <a href="#" className="text-reset">Naprawa suszarek do prania</a>
+                    <a href="#" className="text-reset" title='Naprawa suszarek do prania Świebodzin'>Naprawa suszarek do prania</a>
                   </h3>
                   <p>Jeśli potrzebujesz pomocy przy naprawie swojej suszarki do ubrań, skontaktuj się z nami.</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
-              <div className="card  border-0 h-100 card-lift shadow-sms">
+            <div className="col-lg-4 col-md-6 col-12 mb-4">
+              <div className="card border-0 h-100 card-lift shadow-sms">
                 <div>
-                  <a href="#">
+                  <a href="#" title='Naprawa ekspresów do kawy Świebodzin'>
                     <Image
                       className="img-fluid w-100 rounded-top"
                       src="/assets/images/service/service-4.webp"
-                      alt="Serwis Agd Logo"
+                      alt="Serwis Agd Świebodzin"
                       width={358}
                       height={210}
                       priority
@@ -99,20 +99,20 @@ const Services = () => {
                 </div>
                 <div className="card-body">
                   <h3 className="mb-3">
-                    <a href="#" className="text-reset">Naprawa ekspresów do kawy</a>
+                    <a href="#" className="text-reset" title='Naprawa ekspresów do kawy Świebodzin'>Naprawa ekspresów do kawy</a>
                   </h3>
                   <p>Naprawiamy i serwisujemy ekspresy do kawy. Przyjmujemy do naprawy oraz naprawiamy ekspresy w domu lub firmie.</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 mb-4 mb-md-0">
-              <div className="card  border-0 h-100 card-lift shadow-sms">
+            <div className="col-lg-4 col-md-6 col-12 mb-4">
+              <div className="card border-0 h-100 card-lift shadow-sms">
                 <div>
-                  <a href="#">
+                  <a href="#" title='Naprawa programatorów Świebodzin'>
                     <Image
                       className="img-fluid w-100 rounded-top"
                       src="/assets/images/service/service-5.webp"
-                      alt="Serwis Agd Logo"
+                      alt="Serwis Agd Świebodzin"
                       width={358}
                       height={210}
                       priority
@@ -121,20 +121,20 @@ const Services = () => {
                 </div>
                 <div className="card-body">
                   <h3 className="mb-3">
-                    <a href="#" className="text-reset">Naprawa programatorów</a>
+                    <a href="#" className="text-reset" title='Naprawa programatorów Świebodzin'>Naprawa programatorów</a>
                   </h3>
                   <p>Naprawiamy moduły elektroniczne, programatory, sterowniki dla pralek i pralko-suszarek.</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12">
+            <div className="col-lg-4 col-md-6 col-12 mb-4">
               <div className="card h-100 border-0 card-lift shadow-sms">
                 <div>
-                  <a href="#">
+                  <a href="#" title='Wymiana łożysk w pralkach Świebodzin'>
                     <Image
                       className="img-fluid w-100 rounded-top"
                       src="/assets/images/service/service-6.webp"
-                      alt="Serwis Agd Logo"
+                      alt="Serwis Agd Świebodzin"
                       width={358}
                       height={210}
                       priority
@@ -143,15 +143,38 @@ const Services = () => {
                 </div>
                 <div className="card-body">
                   <h3 className="mb-3">
-                    <a href="#" className="text-reset">Wymiana łożysk w pralkach</a>
+                    <a href="#" className="text-reset" title='Wymiana łożysk w pralkach Świebodzin'>Wymiana łożysk w pralkach</a>
+                  </h3>
+                  <p>Wymieniamy łożyska w pralkach. Naprawiamy wszystkie typy pralek z zastosowaniem markowych certyfikowanych łożysk.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-12 mb-4">
+              <div className="card h-100 border-0 card-lift shadow-sms">
+                <div>
+                  <a href="#" title='Naprawa płyt indukcyjnych Świebodzin'>
+                    <Image
+                      className="img-fluid w-100 rounded-top"
+                      src="/assets/images/service/service-7.webp"
+                      alt="Serwis Agd Świebodzin"
+                      width={358}
+                      height={210}
+                      priority
+                    />
+                  </a>
+                </div>
+                <div className="card-body">
+                  <h3 className="mb-3">
+                    <a href="#" className="text-reset" title='Naprawa płyt indukcyjnych Świebodzin'>Naprawa płyt indukcyjnych</a>
                   </h3>
                   <p>Wymieniamy łożyska w pralkach. Naprawiamy wszystkie typy pralek z zastosowaniem markowych certyfikowanych łożysk.</p>
                 </div>
               </div>
             </div>
           </div>
+
         </div>
-      </section>
+      </section >
     </>
   )
 }
